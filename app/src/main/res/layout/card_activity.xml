@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardActivity">
+    
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="407dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="0dp"
+        android:checkable="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="#7B68EE">>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="85sp"
+            android:text="France"
+            android:textSize="25dp"
+            android:textColor="#F8F8FF"
+            android:textStyle="bold" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="4dp"
+                android:src="@drawable/torre"
+                android:id="@+id/idtorre">
+
+
+    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="205dp"
+                android:layout_marginTop="60sp"
+                android:text="Paris"
+                android:textColor="#F8F8FF"
+                android:textStyle="bold" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="407dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:checkable="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="#32CD32">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="4dp"
+                android:src="@drawable/cristo"
+                android:id="@+id/idcristo">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="85sp"
+                android:text="Brasil"
+                android:textSize="25dp"
+                android:textColor="#F8F8FF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-80dp"
+                android:layout_marginTop="60sp"
+                android:text="Rio de Janeiro"
+                android:textColor="#F8F8FF"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView> <com.google.android.material.card.MaterialCardView
+        android:layout_width="407dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="400dp"
+        android:checkable="true"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="#A52A2A">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_margin="4dp"
+                android:src="@drawable/liberdade"
+                android:id="@+id/idliberdade">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="85sp"
+                android:text="USA"
+                android:textSize="25dp"
+                android:textColor="#F8F8FF"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-55dp"
+                android:layout_marginTop="60sp"
+                android:text="New York"
+                android:textColor="#F8F8FF"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
